@@ -6,7 +6,9 @@ I started by cleaning and preparing the data using Python. I created three funct
 * The first function removed sequences of repeating pages in each user journey, leaving only a single reference in place of the sequence. This helped to eliminate unnecessary repetition in the data.
 * Next, i created a function to group a single user’s journey strings into one large string. This function was designed to be flexible, allowing for potential future requirements such as considering only the first 10 or last 3 sessions of a user.
 * Finally, i developed a function to remove unnecessary pages from the data. This function was designed to be called upon later if needed, providing me with the flexibility to decide which pages are essential for the analysis. <br>
+
 Also i developed several key metrics to gain insights into the behavior of purchasing customers.<br>
+
 * Page Count: This fundamental metric counts the frequency of each page in all user journeys.
 * Page Presence: Similar to ‘Page Count’, but it counts each page only once per journey, showing how often each page is part of a journey.
 * Page Sequences: This metric identifies the most popular sequence of N pages in the user journeys.
